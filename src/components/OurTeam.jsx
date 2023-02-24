@@ -12,7 +12,7 @@ const OurTeam = () => {
     <div className=''>
 
       <div className='flex justify-center mt-6'>
-        <h1 className='text-4xl font-extrabold '><u>OUR TEAM</u></h1>
+        <h1 className='font-project font-extrabold md:text-5xl text-4xl md:tracking-widest  '><u>OUR TEAM</u></h1>
       </div>
       <div className='flex bg-gray-100 flex-wrap m-4'>
         <div className="joyjeet bg-white border-t-8  p-4 sm:w-1/2 lg:w-1/3 flex justify-center flex-col  cursor-pointer shadow-lg hover:scale-110 transition-all duration-500">

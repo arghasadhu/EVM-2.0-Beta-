@@ -14,7 +14,7 @@ const OurProject = () => {
     return (
         <div className=''>
             <div className='flex justify-center mt-5'>
-                <h1 className='font-extrabold text-4xl'><u>OUR PROJECT</u></h1>
+                <h1 className='font-extrabold md:text-5xl text-4xl md:tracking-widest font-project'><u>OUR PROJECT</u></h1>
             </div>
             <div className='max-w-[1240px] mx-auto px-4 relative flex justify-center items-center'>
                 <div className='photos mt-8 justify-between md:grid md:grid-cols-3 md:gap-2 flex flex-wrap '>

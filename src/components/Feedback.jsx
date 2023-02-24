@@ -5,8 +5,8 @@ const Feedback = () => {
     <div className='w-full h-screen '>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bol inline border-b-4 border-gray-500 font-bold'>Please give your Genuine Feedback</p>
-                <p className='py-6'>Submit the form below</p>
+                <p className='text-4xl font-bol inline border-b-4 border-gray-500 font-bold font-team md:tracking-widest tracking-wider'>Please give your Genuine Feedback</p>
+                <p className='py-6 font-extrabold text-lg'>Submit the form below</p>
             </div>
 
             <div className='flex items-center justify-center'>

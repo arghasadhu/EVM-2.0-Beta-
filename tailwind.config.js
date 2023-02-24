@@ -7,6 +7,9 @@ module.exports = {
     extend: {},
     fontFamily: {
       logo: ('PT Serif'),
+      adiyogi: ('Kurale'),
+      team: ('Gloock'),
+      project: ('Abril Fatface')
     }
   },
   plugins: [],
