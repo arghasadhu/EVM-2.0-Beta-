@@ -17,10 +17,10 @@ const OurProject = () => {
                 <h1 className='font-extrabold md:text-5xl text-4xl md:tracking-widest font-project'><u>OUR PROJECT</u></h1>
             </div>
             <div className='max-w-[1240px] mx-auto px-4 relative flex justify-center items-center'>
-                <div className='photos mt-8 justify-between md:grid md:grid-cols-3 md:gap-2 flex flex-wrap '>
-                <img src={Model1} alt="" srcset="" className=' rounded-md my-4 w-[73%] h-[85%]' />
-                <img src={Model2} alt="" srcset="" className=' rounded-md my-4 w-[73%] h-[85%]' />
-                <img src={Model3} alt="" srcset="" className=' rounded-md my-4 w-[73%] h-[85%]' />
+                <div className='photos w-[100%] ml-[20%] md:ml-0 mt-8 justify-between md:grid md:grid-cols-3 md:gap-2 flex flex-wrap '>
+                <img src={Model1} alt="" srcset="" className=' rounded-md my-4 w-[77%] h-[121%] md:w-[73%] md:h-[85%]' />
+                <img src={Model2} alt="" srcset="" className=' rounded-md my-4 w-[77%] h-[121%] md:w-[73%] md:h-[85%]' />
+                <img src={Model3} alt="" srcset="" className=' rounded-md my-4 w-[77%] h-[121%] md:w-[73%] md:h-[85%]' />
                 <img src={Model4} alt="" srcset="" className=' rounded-md my-4 w-[77%] h-[121%]' />
                 <img src={Model5} alt="" srcset="" className=' rounded-md my-4 w-[77%] h-[121%]' />
                 </div>
