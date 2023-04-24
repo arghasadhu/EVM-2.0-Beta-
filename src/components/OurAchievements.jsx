@@ -1,6 +1,7 @@
 import React from "react";
 import Rec1 from "../assets/Rec1.jpg";
 import Rec2 from "../assets/Rec2.jpg";
+import Rec3 from "../assets/Rec3.jpg";
 
 const OurAchievements = () => {
   return (
@@ -54,6 +55,30 @@ const OurAchievements = () => {
             <div className="blog-view">
               <a
                 href="https://www.etvbharat.com/english//state/west-bengal/asansol-engineering-students-invent-advanced-voting-machine/na20230228112920171171510"
+                target="_blank"
+                rel="noreferrer"
+                className="button text-lg font-semibold p-2 bg-green-400 text-white rounded-md"
+              >
+                Read More
+              </a>
+            </div>
+          </div>
+          <div className="card3 p-8 rounded-xl shadow-2xl bg-gray-300 m-5 hover:scale-110 transition-all duration-500">
+            <div className="image-section">
+              <img src={Rec3} alt="/" />
+            </div>
+            <div className="article1">
+              <p className="text-center text-lg font-bold my-3">
+                {" "}
+                Advance voting machine: बंगाल में आसनसोल इंजीनियरिंग कॉलेज के छात्रों ने बनाई एडवांस वोटिंग मशीन
+
+ पश्चिम बंगाल में आसनसोल इंजीनियरिंग कॉलेज के छात्रों ने एडवांस वोटिंग मशीन बनाई है. यह मशीन आधार कार्ड से जुड़ा है और फिंगरप्रिंट, आंखों की रेटिना का पता लगाने की क्षमता रखता है.
+{" "}
+              </p>
+            </div>
+            <div className="blog-view">
+              <a
+                href="https://www.etvbharat.com/hindi/delhi/bharat/asansol-engineering-college-students-stun-all-by-making-advanced-voting-machine/na20230228092437115115197"
                 target="_blank"
                 rel="noreferrer"
                 className="button text-lg font-semibold p-2 bg-green-400 text-white rounded-md"
