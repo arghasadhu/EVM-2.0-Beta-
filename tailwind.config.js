@@ -9,7 +9,9 @@ module.exports = {
       logo: ('PT Serif'),
       adiyogi: ('Kurale'),
       team: ('Gloock'),
-      project: ('Abril Fatface')
+      project: ('Permanent Marker'),
+      para: ("Madimi One"),
+      evmtitle:("Bree Serif")
     }
   },
   plugins: [],

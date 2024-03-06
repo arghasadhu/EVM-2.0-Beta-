@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import OurTeam from "./components/OurTeam";
 import OurProject from "./components/OurProject"
 import Feedback from "./components/Feedback";
-import OurAchievements from "./components/OurAchievements";
+// import OurAchievements from "./components/OurAchievements";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <OurProject />
       <OurTeam />
-      <OurAchievements />
+      {/* <OurAchievements /> */}
       <Feedback />
     </div>
   );
